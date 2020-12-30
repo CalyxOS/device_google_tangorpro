@@ -5,3 +5,7 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-calyx
+
+# For Google Camera
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/sysconfig/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
