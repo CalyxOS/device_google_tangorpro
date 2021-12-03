@@ -18,3 +18,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/tangorpro/tangorpro:13/TQ3A.230605.009.A1/10100517:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/tangorpro/tangorpro-vendor.mk)
