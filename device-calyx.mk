@@ -4,6 +4,9 @@ DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/overlay-calyx
 PRODUCT_COPY_FILES += \
     device/google/tangorpro/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
 
+PRODUCT_COPY_FILES += \
+    device/google/tangorpro/permissions/permissions_com.android.hbmsvmanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.hbmsvmanager.xml
+
 TARGET_PREBUILT_KERNEL := device/google/tangorpro-kernel/Image.lz4
 
 # Build necessary packages for vendor
