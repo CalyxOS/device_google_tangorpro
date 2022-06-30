@@ -35,6 +35,10 @@ include device/google/tangorpro/audio/tangorpro/audio-tables.mk
 $(call soong_config_set,lyric,tuning_product,cloudripper)
 $(call soong_config_set,google3a_config,target_device,cloudripper)
 
+ifeq ($(filter factory_tangorpro, $(TARGET_PRODUCT)),)
+include device/google/tangorpro/uwb/uwb_calibration.mk
+endif
+
 # Touch files
 PRODUCT_COPY_FILES += \
         device/google/tangorpro/NVTCapacitiveTouchScreen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/NVTCapacitiveTouchScreen.idc \
@@ -128,14 +132,9 @@ include device/google/tangorpro/bluetooth/syna_default.mk
 # 	ro.hardware.keystore=software \
 # 	ro.hardware.gatekeeper=software
 
-## Fingerprint HAL
-#GOODIX_CONFIG_BUILD_VERSION := g7_trusty
-#include device/google/gs101/fingerprint/udfps_common.mk
-#ifeq ($(filter factory%, $(TARGET_PRODUCT)),)
-#include device/google/gs101/fingerprint/udfps_shipping.mk
-#else
-#include device/google/gs101/fingerprint/udfps_factory.mk
-#endif
+# Fingerprint
+include device/google/gs101/fingerprint/fpc1540/sw42/fpc1540.mk
+FPC_MODULE_TYPE=1542_S
 
 # Trusty liboemcrypto.so
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro/prebuilts
