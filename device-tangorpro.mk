@@ -70,7 +70,8 @@ PRODUCT_COPY_FILES += \
 
 # Thermal Config
 PRODUCT_COPY_FILES += \
-	device/google/tangorpro/thermal_info_config_tangorpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+	device/google/tangorpro/thermal_info_config_tangorpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
+	device/google/tangorpro/thermal_info_config_charge_tangorpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config_charge.json \
 
 # Power HAL config
 PRODUCT_COPY_FILES += \
@@ -156,3 +157,6 @@ USE_GMSCORE_PREBUILT_Y2022W28 := true
 # Device features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
+
+# Display LBE
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.lbe.supported=1
