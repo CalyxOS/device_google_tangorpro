@@ -147,6 +147,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES_DEBUG += \
         test_cast_auth
 
+# USI stylus test tool
+PRODUCT_PACKAGES_DEBUG += \
+        usi_test
+
 # Lights HAL
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.tangorpro
@@ -160,3 +164,7 @@ PRODUCT_COPY_FILES += \
 
 # Display LBE
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.lbe.supported=1
+
+# Enable adpf cpu hint session for SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    debug.sf.enable_adpf_cpu_hint=true
