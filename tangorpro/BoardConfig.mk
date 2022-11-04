@@ -32,7 +32,7 @@ BOARD_KERNEL_CMDLINE += swiotlb=noforce
 
 include device/google/gs201/BoardConfig-common.mk
 include device/google/gs-common/check_current_prebuilt/check_current_prebuilt.mk
-include device/google/tangorpro-sepolicy/tangorpro-sepolicy.mk
+include device/google/tangorpro/sepolicy/tangorpro-sepolicy.mk
 include device/google/tangorpro/wifi/BoardConfig-wifi.mk
 
 ifdef PHONE_CAR_BOARD_PRODUCT
