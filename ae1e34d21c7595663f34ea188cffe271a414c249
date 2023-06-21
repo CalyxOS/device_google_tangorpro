@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c5800ba_7641d828",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-21T18:51:24Z",
+      "side": 1,
+      "message": "Google Camera works",
+      "revId": "ae1e34d21c7595663f34ea188cffe271a414c249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
