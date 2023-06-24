@@ -1,6 +1,20 @@
 # All blobs are extracted from Google factory images for each new ASB
 
+# product partition
+
+# Cast
+product/etc/permissions/com.google.android.apps.nest.castauth.xml
+product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk
+
+# Dock
+product/etc/sysconfig/pixel_docking_experience_2022.xml
+
 # system_ext partition
+
+# Dock
+system_ext/etc/permissions/com.google.android.apps.nest.dockmanager.app.xml
+system_ext/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk
+system_ext/priv-app/DockSetup/DockSetup.apk
 
 # Edge TPU
 system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
@@ -12,9 +26,6 @@ system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so
 # HBM
 system_ext/lib64/libhbmsvmanager_jni.so
 system_ext/priv-app/HbmSVManager/HbmSVManager.apk
-
-# Misc
-system_ext/lib64/libpowerstatshaldataprovider.so
 
 # UWB
 system_ext/etc/permissions/privapp-permissions-qorvo.xml
