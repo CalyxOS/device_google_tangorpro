@@ -1,6 +1,15 @@
 # All blobs are extracted from Google factory images for each new ASB
 
+# product partition
+
+# Camera extensions
+product/app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
+
 # system_ext partition
+
+# Camera extensions
+system_ext/etc/permissions/com.google.android.camera.extensions.xml
+system_ext/framework/com.google.android.camera.extensions.jar
 
 # Edge TPU
 system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
