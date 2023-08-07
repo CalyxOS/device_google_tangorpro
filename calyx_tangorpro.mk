@@ -13,9 +13,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=tangorpro \
-    PRIVATE_BUILD_DESC="tangorpro-user 13 TQ3A.230705.001.B4 10255998 release-keys"
+    PRIVATE_BUILD_DESC="tangorpro-user 13 TQ3A.230805.001.B1 10255998 release-keys"
 
-BUILD_FINGERPRINT := google/tangorpro/tangorpro:13/TQ3A.230705.001.B4/10255998:user/release-keys
+BUILD_FINGERPRINT := google/tangorpro/tangorpro:13/TQ3A.230805.001.B1/10255998:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
