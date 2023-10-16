@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d74f8708_829ad99d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-16T22:49:43Z",
+      "side": 1,
+      "message": "Can keep it like this, or trim it down.\n\nwanted to decide before getting the commit up for all devices.",
+      "revId": "2792ff3f97809e154c6131791c6182d66356c6d5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
