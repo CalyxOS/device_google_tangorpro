@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52d12af7_306f5ce3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-17T17:14:58Z",
+      "side": 1,
+      "message": "If we\u0027re positive it\u0027s not really used, this seems okay.",
+      "revId": "05c37fd49fad159381d13ebe223bf1a6ae9411c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
