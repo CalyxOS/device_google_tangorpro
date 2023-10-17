@@ -16,6 +16,24 @@
       "message": "If we\u0027re positive it\u0027s not really used, this seems okay.",
       "revId": "05c37fd49fad159381d13ebe223bf1a6ae9411c2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "759800dd_2ec2f2c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-17T17:39:52Z",
+      "side": 1,
+      "message": "There might be some user with some app which uses it, at which point they\u0027d be inconvenienced temporarily, at most until 14 is stable.",
+      "parentUuid": "52d12af7_306f5ce3",
+      "revId": "05c37fd49fad159381d13ebe223bf1a6ae9411c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
