@@ -16,6 +16,24 @@
       "message": "Initially I just removed the `frameworks/native/data/etc/android.hardware.uwb.xml` from this file, and that stops UWB from showing up.",
       "revId": "d5da990d530910d10185194ab42c4c25ef410796",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "525d226b_93008215",
+        "filename": "device-tangorpro.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-17T22:07:42Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "64b2749b_4af52a13",
+      "revId": "d5da990d530910d10185194ab42c4c25ef410796",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
