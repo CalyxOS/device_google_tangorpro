@@ -16,6 +16,24 @@
       "message": "On other Pixels, this is explicitly set to\n\n`com.android.systemui/com.android.systemui.doze.DozeService`",
       "revId": "0ff62de1f3765b17dbd5eba4b5a856650c879950",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4da5b123_bb463fdc",
+        "filename": "tangorpro/overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-10T20:16:31Z",
+      "side": 0,
+      "message": "It\u0027s set in gs201 overlay",
+      "parentUuid": "41813d64_e67db298",
+      "revId": "0ff62de1f3765b17dbd5eba4b5a856650c879950",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
