@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "473b3038_5acf562e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-14T14:32:25Z",
+      "side": 1,
+      "message": "Test: Wake screen for notifications option shows in Settings",
+      "revId": "02c1e2b2859b14189172c771336187a58551bfb7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
