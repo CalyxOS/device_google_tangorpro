@@ -3,8 +3,8 @@
 # product partition
 
 # Camera extensions
-product/app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 product/etc/permissions/androidx.camera.extensions.impl.xml
+product/priv-app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 
 # system_ext partition
 
