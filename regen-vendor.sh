@@ -1034,13 +1034,13 @@ VENDOR_SKIP_FILES=(
     "odm/etc/group"
     "odm/etc/passwd"
     "odm_dlkm/etc/build.prop"
-    "overlay/EmergencyInfo__auto_generated_rro_vendor.apk"
-    "overlay/Settings__auto_generated_rro_vendor.apk"
-    "overlay/StorageManager__auto_generated_rro_vendor.apk"
-    "overlay/SystemUI__auto_generated_rro_vendor.apk"
-    "overlay/TeleService__auto_generated_rro_vendor.apk"
-    "overlay/Traceur__auto_generated_rro_vendor.apk"
-    "overlay/framework-res__auto_generated_rro_vendor.apk"
+    "overlay/EmergencyInfo__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/Settings__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/StorageManager__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/SystemUI__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/TeleService__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/Traceur__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/framework-res__tangorpro__auto_generated_rro_vendor.apk"
     "usr/idc/NVTCapacitivePen.idc"
     "usr/idc/NVTCapacitiveTouchScreen.idc"
     "vendor_dlkm/etc/build.prop"
@@ -1048,11 +1048,11 @@ VENDOR_SKIP_FILES=(
     # Exclude overlays, symlinks and extra files that we override
 
     # Overlays
-    "overlay/DockSetup__auto_generated_rro_vendor.apk"
-    "overlay/Flipendo__auto_generated_rro_vendor.apk"
-    "overlay/SettingsGoogle__auto_generated_rro_vendor.apk"
-    "overlay/StorageManagerGoogle__auto_generated_rro_vendor.apk"
-    "overlay/SystemUITitan__auto_generated_rro_vendor.apk"
+    "overlay/DockSetup__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/Flipendo__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/SettingsGoogle__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/StorageManagerGoogle__tangorpro__auto_generated_rro_vendor.apk"
+    "overlay/SystemUITitan__tangorpro__auto_generated_rro_vendor.apk"
 
     # Symlinks
     "lib/modules"
