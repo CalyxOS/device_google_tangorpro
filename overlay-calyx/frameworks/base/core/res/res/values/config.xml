@@ -200,4 +200,10 @@
         <item>4,USB=1</item>
         <item>3</item>
     </string-array>
+
+    <!-- Whether per-app user aspect ratio override settings is enabled -->
+    <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
+
+    <!-- Whether per-app fullscreen override option is allowed in user aspect ratio settings -->
+    <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
 </resources>
