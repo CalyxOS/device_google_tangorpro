@@ -22,8 +22,8 @@ PRODUCT_MODEL := Pixel Tablet
 PRODUCT_NAME := calyx_$(DEVICE_CODENAME)
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-    BuildDesc="tangorpro-user 15 AP4A.250205.002 12821496 release-keys" \
-    BuildFingerprint=google/tangorpro/tangorpro:15/AP4A.250205.002/12821496:user/release-keys \
+    BuildDesc="tangorpro-user 15 BP1A.250305.020.T2 13023825 release-keys" \
+    BuildFingerprint=google/tangorpro/tangorpro:15/BP1A.250305.020.T2/13023825:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
