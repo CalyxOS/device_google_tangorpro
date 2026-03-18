@@ -1,0 +1,2 @@
+android-info.txt
+bootloader.img
