@@ -6,6 +6,7 @@
 
 from extract_utils.extract import extract_fns_user_type
 from extract_utils.extract_pixel import (
+    copy_pixel_firmware,
     extract_pixel_factory_image,
     extract_pixel_firmware,
     pixel_factory_image_regex,
@@ -59,7 +60,10 @@ blob_fixups: blob_fixups_user_type = {
 
 extract_fns: extract_fns_user_type = {
     pixel_factory_image_regex: extract_pixel_factory_image,
-    pixel_firmware_regex: extract_pixel_firmware,
+    pixel_firmware_regex: [
+        copy_pixel_firmware,
+        extract_pixel_firmware,
+    ],
 }
 
 module = ExtractUtilsModule(
@@ -70,6 +74,7 @@ module = ExtractUtilsModule(
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
+    add_factory_proprietary_file=True,
     extract_fns=extract_fns,
 )
 
