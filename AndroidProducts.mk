@@ -5,4 +5,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tangorpro.mk \
+    $(LOCAL_DIR)/calyx_tangorpro.mk \
     $(LOCAL_DIR)/lineage_tangorpro.mk
