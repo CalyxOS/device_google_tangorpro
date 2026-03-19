@@ -44,29 +44,6 @@
     <!-- Whether to go to the launcher when unlocking via an occluding app -->
     <bool name="config_goToHomeFromOccludedApps">true</bool>
 
-    <!-- Components to allow running fingerprint listening if their activity is occluding the lock screen. -->
-    <string-array name="config_fingerprint_listen_on_occluding_activity_packages">
-        <item>com.google.android.apps.mediashell</item>
-    </string-array>
-
-    <!-- Whether the communal service should be enabled -->
-    <bool name="config_communalServiceEnabled">true</bool>
-
-    <!-- Component names of allowed communal widgets -->
-    <string-array name="config_communalWidgetAllowlist">
-        <item>com.google.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider</item>
-        <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.verticals.snapshot.widgets.weather.WeatherWidget_Receiver</item>
-        <item>com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.appwidget.favorites.FavoritesWidgetReceiver</item>
-        <item>com.google.android.deskclock/com.android.deskclock.appwidgets.timerstarter.TimerStarterAppWidgetProvider</item>
-        <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.widgets.stocks.StocksWidgetReceiver</item>
-    </string-array>
-
-    <!-- Component name of communal source service -->
-    <string name="config_communalSourceComponent">com.google.assistant.hubui/com.google.assistant.surfaces.dragonglass.opal.lockscreenservice.LockScreenService</string>
-
-    <!-- Class for the communal source connector to be used -->
-    <string name="config_communalSourceConnector">com.google.android.systemui.communal.projection.CommunalSourceImpl$Connector</string>
-
     <!-- Flag controlling whether visual query attention detection has been enabled. -->
     <bool name="config_enableVisualQueryAttentionDetection">true</bool>
 
