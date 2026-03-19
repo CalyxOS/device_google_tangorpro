@@ -46,7 +46,6 @@ PRODUCT_PACKAGES += \
     PixelWifiOverlay2023_T6proGs201 \
     PixelWifiOverlay2023_T6proTangorpro \
     SafetyRegulatoryInfoOverlayProductTangorpro \
-    SconeCoexOverlayTangotron \
     SettingsGoogleNoTelephonyOverlay \
     SettingsGoogleOverlayProductTangorpro \
     SettingsGoogleTangorproOverlay \
