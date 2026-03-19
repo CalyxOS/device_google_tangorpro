@@ -28,9 +28,7 @@
 
     <!-- ComponentNames of the dreams that we should hide -->
     <string-array name="config_disabledDreamComponents" translatable="false">
-        <item>com.google.android.deskclock/com.android.deskclock.Screensaver</item>
         <item>com.android.dreams.basic/.Colors</item>
-        <item>com.google.android.apps.photos/.daydream.PhotosDreamService</item>
     </string-array>
 
     <!-- The list of supported dream complications -->
