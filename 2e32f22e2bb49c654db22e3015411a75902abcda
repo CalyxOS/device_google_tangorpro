@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0c2114e_449015e3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-09-23T16:35:12Z",
+      "side": 1,
+      "message": "```suggestion\ntangorpro: Shim android.hardware.usb-service to sync restricted state\n```",
+      "revId": "2e32f22e2bb49c654db22e3015411a75902abcda",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
