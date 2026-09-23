@@ -16,6 +16,24 @@
       "message": "```suggestion\ntangorpro: Shim android.hardware.usb-service to sync restricted state\n```",
       "revId": "2e32f22e2bb49c654db22e3015411a75902abcda",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61868475_ed5b8a36",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-23T16:37:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e0c2114e_449015e3",
+      "revId": "2e32f22e2bb49c654db22e3015411a75902abcda",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
